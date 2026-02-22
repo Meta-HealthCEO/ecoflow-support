@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFlow Support — EcoMed</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8faf9;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        .header {
+            background: linear-gradient(135deg, #4a8f7a 0%, #2d6b5a 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .header h1 { font-size: 2.5rem; margin-bottom: 8px; }
+        .header p { font-size: 1.1rem; opacity: 0.9; }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .card h2 {
+            color: #4a8f7a;
+            font-size: 1.4rem;
+            margin-bottom: 16px;
+        }
+        .card p, .card li {
+            color: #555;
+            margin-bottom: 12px;
+        }
+        .card ul { padding-left: 20px; }
+        .card li { margin-bottom: 8px; }
+        a { color: #4a8f7a; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 16px;
+        }
+        .contact-item {
+            background: #f0f7f4;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .contact-item .icon { font-size: 2rem; margin-bottom: 8px; }
+        .contact-item .label { font-weight: 600; color: #2d6b5a; }
+        .contact-item .value { color: #555; font-size: 0.95rem; margin-top: 4px; }
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 600px) {
+            .contact-grid { grid-template-columns: 1fr; }
+            .header h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>EcoFlow Support</h1>
+        <p>Homecare Oxygen Management by EcoMed</p>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h2>📧 Contact Us</h2>
+            <p>Our support team is available to help you with any questions or issues you may experience with the EcoFlow app.</p>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <div class="icon">📧</div>
+                    <div class="label">Email</div>
+                    <div class="value"><a href="mailto:support@ecomed.co.za">support@ecomed.co.za</a></div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon">📞</div>
+                    <div class="label">Phone</div>
+                    <div class="value"><a href="tel:+27000000000">+27 (0) 00 000 0000</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>❓ Frequently Asked Questions</h2>
+            <ul>
+                <li><strong>How do I reset my password?</strong><br>Tap "Forgot Password?" on the login screen and follow the instructions sent to your registered email.</li>
+                <li><strong>How do I create a prescription?</strong><br>Navigate to Prescriptions from the dashboard, tap the + button, select a patient, and fill in the prescription details.</li>
+                <li><strong>How do I add a new patient?</strong><br>Go to Patients from the dashboard, tap the + button, and enter the patient's details including ID number and contact information.</li>
+                <li><strong>Is my data secure?</strong><br>Yes. EcoFlow uses industry-standard encryption, secure authentication, and complies with POPIA requirements for protecting personal and health information.</li>
+                <li><strong>Who can use EcoFlow?</strong><br>EcoFlow is designed for registered healthcare professionals, practice managers, and authorised staff involved in homecare oxygen services.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>🔒 Privacy Policy</h2>
+            <p>We take your privacy seriously. EcoFlow collects and processes personal and health data in accordance with the Protection of Personal Information Act (POPIA) of South Africa.</p>
+            <p>For full details, please read our <a href="privacy.html">Privacy Policy</a>.</p>
+        </div>
+
+        <div class="card">
+            <h2>ℹ️ About EcoFlow</h2>
+            <p>EcoFlow is developed by EcoMed, a division of Meta-Clinic Africa (Pty) Ltd. We are dedicated to improving homecare oxygen management for healthcare professionals across South Africa.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2026 Meta-Clinic Africa (Pty) Ltd. All rights reserved.</p>
+    </div>
+</body>
+</html>
